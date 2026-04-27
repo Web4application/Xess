@@ -1,4 +1,4 @@
-                    ┌────────────────────────────┐
+              ┌────────────────────────────┐
                     │     HUMAN CONSCIOUSNESS    │
                     │  perception / memory / self│
                     └─────────────┬──────────────┘
@@ -21,11 +21,14 @@
                                   │
           ┌───────────────────────┼────────────────────────┐
           ▼                       ▼                        ▼
-┌─────────────────┐   ┌─────────────────────┐   ┌──────────────────┐
-│   QuakeC VM     │   │    MuPAD Engine     │   │ Objective-J UI   │
-│ world entities  │   │ symbolic cognition  │   │ control / memory │
-│ motion / events │   │ geometry / formulas │   │ dashboard / HUD  │
-└────────┬────────┘   └──────────┬──────────┘   └────────┬─────────┘
+          ┌─────────────────┐  
+          ┌─────────────────────┐   
+          ┌──────────────────┐
+          │   QuakeC VM     │   │    MuPAD Engine     │   │ Objective-J UI  
+          │ 
+          │ world entities  │   │ symbolic cognition  │   │ control / memory │
+          │ motion / events │   │ geometry / formulas │   │ dashboard / HUD  │
+          └────────┬────────┘   └──────────┬──────────┘   └────────┬─────────┘
          │                       │                       │
          └──────────────┬────────┴──────────────┬────────┘
                         ▼                       ▼
