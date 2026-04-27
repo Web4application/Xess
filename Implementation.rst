@@ -1,4 +1,3 @@
-Here’s a research-style framework proposal for your Binary AI Solver Meta-Heuristic System — structured like a formal paper or prototype plan you could publish or develop further.
 
 ---
 
@@ -91,5 +90,3 @@ Each algorithm contributes update proposals to a Hybrid Update Engine.
 
 
 ---
-
-Would you like me to format this into a publishable academic abstract and introduction section next — suitable for submission to a machine learning or computational intelligence journal?
