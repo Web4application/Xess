@@ -1,0 +1,55 @@
+Here’s a Methodology section drafted in full academic style, continuing from the abstract and introduction we built earlier. It explains how the eight algorithms integrate into the unified solver framework:
+
+---
+
+⚙️ Methodology
+
+1. Binary Problem Encoding
+
+All NP-complete problems considered in this work are first expressed in binary form. Variables, edges, or items are encoded as ±1 bits, enabling the solver to operate exclusively with Boolean operations such as XNOR and Popcount. This representation ensures uniformity across diverse problem domains, including SAT, Traveling Salesman, Knapsack, Graph Coloring, and Vertex Cover.
+
+---
+
+2. Algorithmic Components
+
+The framework integrates eight distinct binary learning algorithms, each contributing complementary mechanisms:
+
+• Probabilistic Flip Algorithm (PFA): Introduces stochasticity by flipping weights with probabilities that increase after repeated errors, enhancing exploration of the solution space.
+• Temporal Binary Reinforcement (TBR): Enforces stability by requiring N consecutive misclassifications before flipping a weight, mitigating noise sensitivity.
+• Adaptive Threshold Binary Learning (ATBL): Dynamically adjusts flipping thresholds based on error rates, balancing aggressive updates with conservative stability.
+• Hebbian-Binary Hybrid (HBH): Reinforces consistent input-output alignments, inspired by Hebbian principles, while penalizing mismatches.
+• Energy-Constrained Binary Optimization (ECBO): Assigns energy budgets to weights; updates consume energy, modeling resource constraints in TinyML and IoT contexts.
+• Error-Signal Clustering (ESC): Groups error signals into clusters, enabling structured updates that reduce randomness and accelerate convergence.
+• Consensus Binary Learning (CBL): Employs multiple random classifiers to vote on error signals, ensuring robustness against noisy or misleading updates.
+• Confidence-Weighted Binary Reinforcement (CWBR): Maintains hidden confidence counters for each weight, flipping only when confidence drops below a threshold, reducing instability and catastrophic forgetting.
+
+
+---
+
+3. Hybrid Update Engine
+
+Each algorithm generates update proposals for binary weights. These proposals are aggregated through a weighted voting mechanism, where the influence of each algorithm is adjusted dynamically based on performance metrics such as error reduction, convergence speed, and resource usage. This hybrid engine ensures that exploration-oriented algorithms (e.g., PFA, ESC) and stability-oriented algorithms (e.g., CWBR, TBR) cooperate effectively.
+
+---
+
+4. Adaptive Feedback Loop
+
+The solver incorporates an adaptive feedback loop that monitors temporal persistence, confidence counters, and energy budgets. Stable patterns are reinforced through HBH and CWBR, while unstable or resource-intensive updates are pruned by ECBO. ESC clusters error signals to provide structured feedback, and ATBL adjusts thresholds in response to evolving error dynamics. This loop ensures continuous adaptation to problem-specific characteristics.
+
+---
+
+5. Resource and Constraint Management
+
+A dedicated resource manager enforces energy and memory constraints, critical for deployment in constrained environments. ECBO governs update frequency based on available energy budgets, while ATBL and CWBR prevent excessive instability. This design aligns the solver with neuromorphic and TinyML paradigms, where efficiency is paramount.
+
+---
+
+6. Solution Evaluation
+
+Candidate solutions are evaluated against problem-specific feasibility criteria (e.g., clause satisfaction in SAT, tour validity in TSP). If constraints are unmet, the feedback loop triggers further iterations. Performance is benchmarked against classical heuristics such as simulated annealing and genetic algorithms, with metrics including solution quality, convergence time, Boolean gate count, and energy efficiency.
+
+---
+
+✨ This section now gives you a publishable methodology that explains how the eight algorithms integrate into a unified solver.
+
+Would you like me to continue by drafting the Results & Discussion section, where we imagine benchmark outcomes (e.g., SAT accuracy, TSP route quality, energy savings) and analyze how your solver compares to classical heuristics?

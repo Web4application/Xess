@@ -1,0 +1,75 @@
+.. project structures, configs: 
+
+:extensions: |  :Categories::
+                 :📦: .Compressed
+                 :📄: .Document
+                 :🎬: .Video
+                  :🎵: Audio
+                 :🖼️: .Image 
+                 :🎨: .Graphic
+                 :🧊: .3D Image
+                 :🎞️: .Media
+                 :👨‍💻: .Developer
+                 :🗄️: .Database
+                 :💻: .System
+                 :🎮: .Game
+                  :🌐: .Web
+                 :📊: .Data
+                  :🔒: .Security
+                  :🔌: .Plugin
+                   :📐: .CAD
+                  :📁: .Font
+                   :📁: .Project Files
+                   :🧩: .Miscellaneous
+                    :📁: .General
+                    :🗜️: .Archive
+
+:.apk: Executable File
+:.asm: Source Code File
+:.blend: 3D Image File
+:.cpp: Source Code File
+:.c: Source Code and Script
+:.cfg: Configuration File
+:.dwg: CAD File
+:.dxf: CAD File
+:.go: Source Code File
+:.h: Source Code and Script
+:.hxx: C++ Source Code Header File
+:.jsx: Script File
+:.java: Source Code File
+:.md: Markdown Documentation File
+:.py: Script File
+:.rb: Source Code File
+:.resx:
+:.NET: Managed Resources File
+:.sh: Script File
+:.skp: 3D Image File
+:.sldprt: CAD File
+:.scss: Style Sheet File
+:.vbs: Executable File
+:.vue: Settings File
+:.xsd: XML Schema File
+:.yml: Configuration File
+:.yaml: Data Serialization File
+:.log: Text File
+:.less: Stylesheet Language File
+:.bash: Script Source Code
+:.8ba: Plugin
+:.8bs: Plugin
+:.8bx: Plugin
+:.pyx: cpython source code
+:.nim: 
+:.sil: 
+:.m4a: 
+:.7z: 
+:.berry: 
+:.beerry:
+:.txt:
+:.ll:
+:.llvm: 
+:.mdx: 
+:.rst:
+:.r:
+:.j: 
+:.jsonl:
+:.jsonc: 

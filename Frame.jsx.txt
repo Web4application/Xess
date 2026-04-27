@@ -1,0 +1,1 @@
+<iframe src="https://www.kaggle.com/embed/mpwolke/neurogolf-2026-onnx?kernelSessionId=311889776" height="800" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="NeuroGolf 2026 ONNX"></iframe>

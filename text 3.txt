@@ -1,0 +1,12 @@
+Binary Images:
+           0x102dd8000 -                ???  io.horizontalsystems.bank-wallet 0.47 (222) <C4BD0DF5-70D9-3FA7-BD9A-23DA6B44A895>  /private/var/containers/Bundle/Application/DB61D3A4-9046-40BD-AC88-9DECA9CADBFA/Unstoppable.app/Unstoppable
+           0x19436f000 -        0x1948f7c7f  libswiftCore.dylib                          <8F07D178-776F-3B60-AE31-38BC347D802E>  /usr/lib/swift/libswiftCore.dylib
+           0x195727000 -        0x1957b04cf  libswift_Concurrency.dylib                  <5E127CE7-28C6-3986-8E4B-00829145F2AD>  /usr/lib/swift/libswift_Concurrency.dylib
+           0x195a0b000 -        0x195bb4663  libsqlite3.dylib                            <36EC3624-D16B-3F95-8FE3-E8F065967A13>  /usr/lib/libsqlite3.dylib
+           0x1a2816000 -        0x1a289656f  libsystem_c.dylib                           <45EF0C60-2B4D-33CF-85A2-551531A2E3D8>  /usr/lib/system/libsystem_c.dylib
+           0x1a60c4000 -        0x1a6156de3  libc++.1.dylib                              <2D404DC0-43A4-30E4-9206-0899A61013EF>  /usr/lib/libc++.1.dylib
+           0x1a721c000 -        0x1a7232c20  libswiftDispatch.dylib                      <DE86DDE5-0AC0-3C48-80B1-B6260C305945>  /usr/lib/swift/libswiftDispatch.dylib
+           0x1ab8fc000 -        0x1abcb165f  CFNetwork                                   <DE57EC0C-5431-39E2-8796-A73536709966>  /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+           0x1cea9c000 -        0x1ceae221f  libdispatch.dylib                           <6087D092-9B44-3ECC-9D2E-D53F8AB30241>  /usr/lib/system/libdispatch.dylib
+           0x1f1ea9000 -        0x1f1eb53fb  libsystem_pthread.dylib                     <5525B29B-5BFF-3CB4-BDEA-EFD4D78E7B3C>  /usr/lib/system/libsystem_pthread.dylib
+           0x23ea83000 -        0x23eabdcfb  libsystem_kernel.dylib                      <0BA2B053-1DC6-3F3D-993A-07198DDC074E>  /usr/lib/system/libsystem_kernel.dylib
