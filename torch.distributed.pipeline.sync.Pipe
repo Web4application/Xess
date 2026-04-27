@@ -1,0 +1,21 @@
+@patch
+def to_advanced_distributed(self: Learner,
+                           fsdp=True,
+                           prefetch=True,
+                           elastic=True,
+                           wandb=True,
+                           accumulation_steps=1):
+
+    if fsdp:
+        self.add_cb(AdvancedDistributedTrainer())
+
+    if prefetch:
+        self.dls.loaders = [PrefetchDL(dl) for dl in self.dls]
+
+    if wandb:
+        self.add_cb(WandbCallback())
+
+    if accumulation_steps > 1:
+        self.add_cb(AccumulationCallback(accumulation_steps))
+
+    return self
