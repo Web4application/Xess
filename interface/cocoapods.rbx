@@ -1,6 +1,5 @@
 require 'rubygems'
 require 'xcodeproj'
-
 # It is very likely that we'll need these and as some of those paths will atm
 # result in a I18n deprecation warning, we load those here now so that we can
 # get rid of that warning.
