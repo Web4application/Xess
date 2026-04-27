@@ -1,7 +1,7 @@
 import os
 
 # Define the filename
-filename = "sysdiagnose_2017.08.17_07-30-12-0700_10169.tar.gz"
+filename = "sysdiagnose_.08.17_07-30-12-0700_10169.tar.gz"
 
 # Mock logic to "analyze" based on common sysdiagnose structure
 # Since I cannot actually download/access the user's local file, 
