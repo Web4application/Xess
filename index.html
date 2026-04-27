@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html style="background:#000;color:#00f2ff;text-align:center;font-family:monospace;">
+    <body>
+        <div style="border:2px solid #00f2ff;margin:20px;padding:20px;">
+            <h1>OMNI-GATE v1.0</h1>
+            <div style="width:150px;height:150px;border:3px dashed #ff00ff;border-radius:50%;margin:auto;animation:spin 4s infinite linear;"></div>
+            <p>TIME TRAVEL SCRUBBER</p>
+            <input type="range" style="width:80%;">
+            <br><br>
+            <button onclick="start()" style="background:none;border:1px solid #00f2ff;color:#00f2ff;padding:20px;width:80%;">ENGAGE TELEPORT</button>
+        </div>
+        <script>
+            function start(){ 
+                alert("INITIALIZING POWER OF LIGHT...");
+                const ws = new WebSocket('ws://' + window.location.host + '/ws/teleport');
+                ws.onmessage = () => { console.log("Stream Active"); };
+            }
+        </script>
+        <style>@keyframes spin {to{transform:rotate(360deg);}}</style>
+    </body>
+</html>
